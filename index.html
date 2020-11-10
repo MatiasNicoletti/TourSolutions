@@ -350,11 +350,11 @@ jQuery(function() {
   <input id='setLabelOk' type='button' value='Ok'/>
 </div>
 
-<div id='dialogHelp' title='Help'>
+<div id='dialogHelp' title='Ayuda'>
   <p>Para agregar un punto en el mapa haga click en el mismo </p>
   <p>La primera ubicación que seleccione será el comienzo del recorrido.
   Si hace click en <strong>Agente Viajero</strong>, éste también será el final del mismo.</p>
-  <p> En cambio, si selecciona <strong>Agente Económico</strong>, la última ubicación que utilice
+  <p> En cambio, si selecciona <strong>Camino Económico</strong>, la última ubicación que utilice
   será el fin del recorrido.</p>
   <p>Para <strong>remover</strong> un punto haga click en el logo rojo en el mapa y seleccione 'remove location'.</p>
   <p>Una vez hace click en calcular el recorrido se guardará y podrá ser accedido mediante el botón <strong>Historial.</strong></p>
@@ -414,7 +414,7 @@ jQuery(function() {
   </p>
   <p class="travel-btns">
     <input class="calcButton" id="travelbtn1" type="button" class="btn special-btn" value="Agente Viajero" onClick="directions(0, document.forms['travelOpts'].walking.checked, document.forms['travelOpts'].bicycling.checked, document.forms['travelOpts'].avoidHighways.checked, document.forms['travelOpts'].avoidTolls.checked, document.forms['travelOpts'].metricUnits.checked)"/>
-    <input class="calcButton" id="travelbtn2" type="button" class="btn" value="Agente Económico" onClick="directions(1, document.forms['travelOpts'].walking.checked, document.forms['travelOpts'].bicycling.checked, document.forms['travelOpts'].avoidHighways.checked, document.forms['travelOpts'].avoidTolls.checked, document.forms['travelOpts'].metricUnits.checked)"/>
+    <input class="calcButton" id="travelbtn2" type="button" class="btn" value="Camino Económico" onClick="directions(1, document.forms['travelOpts'].walking.checked, document.forms['travelOpts'].bicycling.checked, document.forms['travelOpts'].avoidHighways.checked, document.forms['travelOpts'].avoidTolls.checked, document.forms['travelOpts'].metricUnits.checked)"/>
     
   </p>
 </div>
